@@ -73,3 +73,8 @@
 - **Źle:** `n = liczba // 10`. `liczba` to już jedna cyfra, więc wynik to zawsze `0`.
 - **Dobrze:** `n = n // 10`.
 - **Test:** `suma_cyfr(123) == 6`, a nie `3`.
+
+### 15. Dwa przypadki specjalne zamiast jednego warunku
+- **Źle:** `if n == 0 or n == 1` łapało tylko `0` i `1`. Liczba ujemna, np. `-5`, omijała ten warunek, a pętla `range(2, -6)` jest pusta, więc funkcja zwracała `True`.
+- **Dobrze:** `if n <= 1: return False` obejmuje wszystko, co jest mniejsze od najmniejszej liczby pierwszej. Pętla ma iść `range(2, n)`, bez `n-1`.
+- **Test:** `czy_pierwsza(-5) == False`, `czy_pierwsza(3) == True`.
