@@ -61,7 +61,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 1 (Pn) — Diagnostyka i środowisko
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** ustalić poziom startowy, żeby reszta planu trafiała w flow.
 - **Test diagnostyczny (25 min, bez podpowiedzi):** 8 mini-zadań: (1) suma liczb parzystych od 1 do n, (2) odwrócenie napisu, (3) liczba samogłosek w zdaniu, (4) maksimum listy i jego indeks, (5) wczytanie pliku z liczbami i suma, (6) suma cyfr liczby, (7) czy liczba jest pierwsza, (8) zliczenie wystąpień każdego elementu listy.
