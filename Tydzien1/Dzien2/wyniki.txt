@@ -1,0 +1,2 @@
+a) wszystkich liczb jest: 40 
+b) ujemnych jest: 16
