@@ -71,7 +71,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 2 (Wt) — Wczytywanie i zapisywanie plików
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** pewnie obsługiwać pliki tekstowe, bo na maturze prawie każde zadanie od nich zaczyna.
 - **Mini-lekcja:** `open`/`with`, `read`/`readlines`/iteracja po liniach, `strip`, `split` (spacja vs `;`), `int`/`float`, kodowanie, zapis do pliku.
