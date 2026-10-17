@@ -82,7 +82,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 3 (Śr) — Warunki, pętle i tłumaczenie pseudokodu
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** płynnie przechodzić z pseudokodu CKE na Pythona i obsługiwać wzorzec "bieżący vs najlepszy".
 - **Mini-lekcja:** `if/elif/else`, `for`/`while`, `break`/`continue`, `%`, `//`, `**`, `divmod`; zamiana `dla i ← 1 do n` na `range(1, n+1)` oraz `dopóki` na `while`.
