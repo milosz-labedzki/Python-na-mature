@@ -19,10 +19,16 @@ assert czy_palindrom_liczba(40) == False
 
 
 def czy_palindrom_tekst(s):
-    for i in s:     
-        while(i == i[-1]):
-            print("to palindrom")
-        return True
-    return False
+    tablica = []
+    for i in s:
+        tablica.append(i)
+    dlugosc = len(tablica)
+    for j in range(1,dlugosc+1):
+        if(tablica[j-1] != tablica[-j]):
+            return False
+    return True
 
-print (czy_palindrom_tekst("kajak"))
+assert czy_palindrom_tekst("kajak") == True
+assert czy_palindrom_tekst("abba") == True
+assert czy_palindrom_tekst("") == True
+assert czy_palindrom_tekst("abcd") == False
