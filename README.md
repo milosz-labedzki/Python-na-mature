@@ -93,7 +93,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 4 (Cz) — Funkcje i własna biblioteka
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** dzielić rozwiązanie na małe, testowalne funkcje.
 - **Mini-lekcja:** `def`, `return` vs `print`, parametry, zasięg zmiennych, `assert`.
