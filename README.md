@@ -104,7 +104,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 5 (Pt) — Listy, wycinki i komprehensje
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** swobodnie operować na listach i rozumieć referencje.
 - **Mini-lekcja:** indeksy (też ujemne), slicing, `append`/`pop`/`insert`, `in`, `enumerate`, `zip`, list comprehension, kopiowanie vs referencja (`b = a` vs `b = a[:]`).
