@@ -115,7 +115,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 6 (So) — 🧪 TEST 1 (bez podpowiedzi)
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Zakres:** dni 1–5. **40 min, bez notatek.** Trzy zadania z plikami (dane z `gen.py`):
 1. `liczby.txt` (1000 liczb): ile jest parzystych; największa i pozycja pierwszego wystąpienia.
