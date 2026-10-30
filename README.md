@@ -130,7 +130,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 7 (Pn) — Cyfry liczby
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** biegle rozbijać liczbę na cyfry.
 - **Mini-lekcja:** `%10` i `//10`, wersja ze `str(n)`, kiedy która.
