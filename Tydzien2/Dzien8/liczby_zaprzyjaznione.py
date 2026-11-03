@@ -1,15 +1,3 @@
-def suma_dzielnikow(n):
-    p = 1
-    suma_dziel = 0 
-    while(p<n):
-        if(n%p==0):
-            suma_dziel += p
-        p+=1
-    return suma_dziel
-
-
-
-
 def suma_dzielnikow_szybka(n):
     if(n == 1): return 0
     d = 0
@@ -24,9 +12,10 @@ def suma_dzielnikow_szybka(n):
             if(para == n): para = 0
             if(para == d): para = 0
             suma += d+para
-
     return suma
 
-
-for n in range(1, 2001):
-    assert suma_dzielnikow_szybka(n) == suma_dzielnikow(n)
+for a in range(2,10001):
+    b = suma_dzielnikow_szybka(a)
+    if(b>a):
+        if(suma_dzielnikow_szybka(b) == a):
+            print(a,b)
