@@ -7,3 +7,5 @@ def liczba_dzielnikow(n):
             else: licznik += 2
         d += 1
     return licznik
+
+
