@@ -141,7 +141,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 8 (Wt) — Podzielniki, liczby pierwsze, doskonałe
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** rozumieć, dlaczego algorytmy na liczbach działają i ile kosztują.
 - **Mini-lekcja:** dzielniki do `√n`, test pierwszości, sito Eratostenesa.
