@@ -152,7 +152,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 9 (Śr) — NWD, NWW, rozkład na czynniki, ułamki
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** opanować algorytm Euklidesa w obu wersjach.
 - **Mini-lekcja:** Euklides iteracyjnie i rekurencyjnie, `NWW = a*b // NWD`, rozkład na czynniki pierwsze.
