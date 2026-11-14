@@ -12,11 +12,11 @@ def bin_na_dec(s):
     
 
 
-with open("bin.txt", "r",encoding="UTF-8") as f:
+with open("latwe/bin.txt", "r",encoding="UTF-8") as f:
         for line in f:
             line = line.strip()
             wartosc = bin_na_dec(line)
             if(wartosc > 500): licznik += 1
-        with open("wyniki2.txt","w",encoding="UTF-8") as t:
+        with open("latwe/wyniki2.txt","w",encoding="UTF-8") as t:
             t.write(f"a) {licznik}")
 

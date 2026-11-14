@@ -1,4 +1,4 @@
-with open("dec.txt","r",encoding="UTF-8") as f:
+with open("latwe/dec.txt","r",encoding="UTF-8") as f:
     wynik5 = 0
     najwieksza = 0
     najwieksza_num = 0
@@ -34,7 +34,7 @@ with open("dec.txt","r",encoding="UTF-8") as f:
 
 
 
-with open("wyniki1.txt","w",encoding="UTF-8") as l:
+with open("latwe/wyniki1.txt","w",encoding="UTF-8") as l:
      l.write(f"a){wynik5} \nb){najwieksza_num} {najwieksza}")
 
 
@@ -44,24 +44,3 @@ with open("wyniki1.txt","w",encoding="UTF-8") as l:
 
   
         
-# def dec_na_bin(n):
-#     wynik = ""
-#     liczba = 0
-#     liczba1 = 0
-#     if(n == 0 or n == 1): return str(n)
-#     while(n!=0):
-#         liczba = n % 2
-#         n = n // 2
-#         if(liczba == 1):
-#             wynik += "1"
-#             liczba1 += 1
-#         else:
-#             wynik += "0"
-
-#         if(liczba1==5):
-#             wynik5 += 1
-#     koncowy_wynik = wynik[::-1]
-#     return wynik5
-# for line in tablica:
-    
-#     print(dec_na_bin(line))

@@ -22,7 +22,7 @@ def bin_na_dec(s):
     return wynik
     
 
-with open("liczby_bin.txt","r",encoding="UTF-8") as f:
+with open("srednie/liczby_bin.txt","r",encoding="UTF-8") as f:
     licznik = 0
     liczenie = 0
     najwieksza = None
@@ -35,6 +35,6 @@ with open("liczby_bin.txt","r",encoding="UTF-8") as f:
 
         if(najwieksza == None or najwieksza < wartosc2): najwieksza = wartosc2
 
-with open("wyniki3.txt","w",encoding="UTF-8") as t:
+with open("srednie/wyniki3.txt","w",encoding="UTF-8") as t:
     t.write(f"a) {liczenie}\nb) {najwieksza}\nc) {licznik}")
 
