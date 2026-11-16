@@ -163,7 +163,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 10 (Cz) — Systemy liczbowe i operacje bitowe
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** konwersje bez magii i bez kopiowania gotowców.
 - **Mini-lekcja:** `bin`/`hex`/`oct`, `int(s, base)`, f-stringi `:b` `:x`, operatory `&`, `|`, `^`, `<<`, `>>`.
