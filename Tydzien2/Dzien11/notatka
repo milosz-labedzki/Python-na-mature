@@ -1,0 +1,5 @@
+1. (dodawanie_duzych_liczb) Python nie ma limitu wielkości int, więc 100-cyfrowe liczby zwykle dodajesz i porównujesz normalnie. Gdy zadanie każe liczyć pisemnie, pracujesz na napisach, a int() wolno Ci użyć tylko na pojedynczej cyfrze.
+
+2. (dodawanie_pisemne) Pisemne działanie robisz kolumna po kolumnie od końca, bo przeniesienie wędruje w lewo. W każdej kolumnie suma to cyfra + cyfra + przeniesienie, cyfrą do wyniku jest suma % 10, nowym przeniesieniem suma // 10, a po pętli dopisujesz ostatnie przeniesienie i odwracasz wynik. Przy dodawaniu przeniesienie to 0 albo 1, a przy mnożeniu przez cyfrę może dojść do 8.
+
+3. (mnozenie_pisemne) Dwie liczby zapisane jako napisy porównujesz tak: najpierw długość, a dopiero przy równej długości (i bez zer wiodących) znak po znaku. Samo > na napisach porównuje od lewej i kończy na pierwszej różnicy, więc '9' > '10' daje True.
