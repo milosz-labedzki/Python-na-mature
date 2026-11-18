@@ -174,7 +174,7 @@ Jeśli nie masz słuchacza, **uczeń może być wyimaginowany**: kolega z klasy,
 
 ### Dzień 11 (Pt) — Duże liczby i arytmetyka pisemna
 
-- [ ] **Dzień ukończony**
+- [x] **Dzień ukończony**
 
 **Cel:** rozumieć, co robi Python za Ciebie, i umieć to zrobić ręcznie.
 - **Mini-lekcja:** nieograniczony `int`, `pow(a, b, m)`, liczby jako napisy, dodawanie pisemne.
