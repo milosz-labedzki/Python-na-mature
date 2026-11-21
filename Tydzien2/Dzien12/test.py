@@ -26,13 +26,13 @@ def czy_palindrom_bin(b):
 
 
 
-def NWD():
+def NWD(a,b):
     dzielnik = 0
-    a = t[i]
-    b = t[i+1]
-
-    while(a % b != 0)
-        
+    while(a % b != 0):
+        dzielnik = a % b
+        a = b
+        b = dzielnik
+    return b     
 
 
 
@@ -65,10 +65,17 @@ with open("liczby.txt","r",encoding="UTF-8") as f:
 
 
         wynik2 = czy_palindrom_bin(line)
-        if(wynik2 == wynik2[::-1]): licznik2 += 1
+        if(wynik2 == wynik2[::-1]): 
+            licznik2 += 1
+            if(najwieksza2 == None or najwieksza2 < line):
+                najwieksza2 = line
 
-        if(najwieksza2 == None or najwieksza2 < wynik2):
-            najwieksza2 = wynik2
+
+
+
+
+
+
 
 
 
@@ -78,9 +85,22 @@ with open("liczby3.txt","r",encoding="UTF-8") as f:
         linia = linia.strip()
         linia = int(linia)
         tablica.append(linia)
-    wynik3 = NWD(tablica)
-    
+    wynik3 = tablica[0]
+    for i in range(1,len(tablica)):
+        wynik3 = NWD(wynik3,tablica[i])
+
+    najlepsze = 0
+    najlepsze_i = 0
+    najlepsze_j = 0
+for i in range(len(tablica)):
+    for j in range(i + 1, len(tablica)):
+        wynik = (NWD(tablica[i], tablica[j]))
+        if(najlepsze < wynik): 
+            najlepsze = wynik
+            najlepsze_i = i
+            najlepsze_j = j
+ 
 
 
 with open("wyniki.txt","w",encoding="UTF-8") as t:
-    t.write(f"1a) {licznik1}\n1b) {najwieksza1}\n2a) {licznik2}\n2b) {najwieksza2}\n3a) {wynik3}")
+    t.write(f"1a) {licznik1}\n1b) {najwieksza1}\n2a) {licznik2}\n2b) {najwieksza2} {czy_palindrom_bin(najwieksza2)} \n3a) {wynik3}\n3b) {najlepsze_i + 1} {najlepsze_j + 1} {najlepsze}")
